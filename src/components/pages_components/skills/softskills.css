@@ -1,0 +1,44 @@
+.body-list-comunication-none, 
+.body-list-team-none, 
+.body-list-critical-none,
+.body-list-problem-none,
+.body-list-flexibility-none,
+.body-list-time-none {
+    display: none;
+    
+}
+
+.body-list-comunication, 
+.body-list-team, 
+.body-list-critical,
+.body-list-problem,
+.body-list-flexibility,
+.body-list-time {
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+
+
+/*communication arrow rotate*/
+.communication-arrow {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.communication-arrow-rotate {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -180deg;
+    transition-duration: 0.2s;
+}

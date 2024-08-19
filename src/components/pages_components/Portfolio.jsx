@@ -134,7 +134,7 @@ export const Portfolio = () => {
                             <img src={js} alt='js' className='tech-size' />
                             <img src={react} alt='react' className='tech-size' />
                         </div>
-                        <a href={`https://mcdonalds.alindorobantu.com/`} target={`_blank`}>
+                        <a href={`https://github.com/A21N/mcdonalds.git`} target={`_blank`}>
                         <img src={gitbutton} alt='button github' className='button-git' title='view code on github!'/>
                         </a>
                     </div>

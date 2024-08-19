@@ -61,7 +61,9 @@ export const Portfolio = () => {
                             <img src={css} alt='css' className='tech-size' />
                             <img src={js} alt='js' className='tech-size' />
                         </div>
+                        <a href={`https://github.com/A21N/image_gallery.git`} target={`_blank`}>
                         <img src={gitbutton} alt='button github' className='button-git' title='view code on github!'/>
+                        </a>
                     </div>
                 </div>
 
@@ -77,7 +79,9 @@ export const Portfolio = () => {
                             <img src={css} alt='css' className='tech-size' />
                             <img src={js} alt='js' className='tech-size' />
                         </div>
+                        <a href={`https://github.com/A21N/simpleCalculator.git`} target={`_blank`}>
                         <img src={gitbutton} alt='button github' className='button-git' title='view code on github!'/>
+                        </a>
                     </div>
                 </div>
 
@@ -94,7 +98,9 @@ export const Portfolio = () => {
                             <img src={css} alt='css' className='tech-size' />
                             <img src={js} alt='js' className='tech-size' />
                         </div>
+                        <a href={`https://github.com/A21N/to-do-list.git`} target={`_blank`}>
                         <img src={gitbutton} alt='button github' className='button-git' title='view code on github!'/>
+                        </a>
                     </div>
                 </div>
                 
@@ -118,7 +124,9 @@ export const Portfolio = () => {
                             <img src={js} alt='js' className='tech-size' />
                             <img src={react} alt='react' className='tech-size' />
                         </div>
+                        <a href={`https://github.com/A21N/alindorobantu.git`} target={`_blank`}>
                         <img src={gitbutton} alt='button github' className='button-git' title='view code on github!'/>
+                        </a>
                     </div>
                 </div>
                 <div className='portofolio-item'>

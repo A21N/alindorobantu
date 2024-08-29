@@ -11,6 +11,9 @@
 }
 
 
+
+
+
 #align-elements-soft-skills {
     display: flex;
     flex-direction: column;
@@ -122,7 +125,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 320px;
+    width: 100%;
 }
 
 /*HTML arrow rotate*/

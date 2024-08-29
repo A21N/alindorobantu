@@ -103,7 +103,7 @@ const showTimeSkills = () => {
                 </div>
                 <ul className={showComm?'body-list-comunication-none':'body-list-comunication'} >
                 <li class="text-skills-presentation">
-                    <p>Am dezvoltat abilități puternice de comunicare, ceea ce îmi permite să colaborez eficient cu echipele de dezvoltare și design pentru a asigura livrarea de soluții de calitate superioară. Sunt adeptul unui dialog clar și concis, facilitând astfel integrarea cerințelor clientului în produsele finale.</p>
+                    <p>I have developed strong communication skills, which enable me to collaborate effectively with development and design teams to ensure the delivery of high-quality solutions. I am an advocate of clear and concise dialogue, thus facilitating the integration of client requirements into the final products.</p>
                 </li>
                 </ul>
             </div>
@@ -122,7 +122,7 @@ const showTimeSkills = () => {
                 </div>
                 <ul className={showTeamwork?'body-list-team-none':'body-list-team'}>
                 <li class="text-skills-presentation">
-                    <p>Experiența de lucru în echipe diverse m-a învățat să colaborez eficient cu colegii pentru a atinge obiective comune. Sunt capabil să îmi asum diferite roluri într-o echipă și să contribui la succesul proiectului prin partajarea de cunoștințe și suport continuu.</p>
+                    <p>Working in diverse teams has taught me how to collaborate effectively with colleagues to achieve common goals. I am capable of taking on different roles within a team and contributing to the project's success by sharing knowledge and providing continuous support.</p>
                 </li>
                 </ul>
             </div>
@@ -140,7 +140,7 @@ const showTimeSkills = () => {
                 </div>
                 <ul className={showCritical?'body-list-critical-none':'body-list-critical'}>
                 <li class="text-skills-presentation">
-                    <p>Gândirea critică îmi permite să identific și să analizez provocările tehnice, oferind soluții inovatoare pentru problemele complexe. Sunt capabil să evaluez alternativele și să aleg cea mai eficientă abordare pentru dezvoltarea funcționalităților aplicațiilor web.</p>
+                    <p>Critical thinking enables me to identify and analyze technical challenges, offering innovative solutions to complex problems. I am able to evaluate alternatives and choose the most effective approach for developing web application functionalities.</p>
                 </li>
                 </ul>
             </div>
@@ -158,7 +158,7 @@ const showTimeSkills = () => {
                 </div>
                 <ul className={showProblem?'body-list-problem-none':'body-list-problem'}>
                 <li class="text-skills-presentation">
-                    <p>Am o abilitate puternică de a rezolva problemele tehnice într-un mod rapid și eficient. Capacitatea de a diagnostica și de a remedia erorile de cod îmi permite să îmbunătățesc performanța și funcționalitatea aplicațiilor web.</p>
+                    <p>I have a strong ability to solve technical problems quickly and efficiently. My capacity to diagnose and fix code errors allows me to enhance the performance and functionality of web applications.</p>
                 </li>
                 </ul>
             </div>
@@ -176,7 +176,7 @@ const showTimeSkills = () => {
                 </div>
                 <ul className={showFlexibility?'body-list-flexibility-none':'body-list-flexibility'}>
                 <li class="text-skills-presentation">
-                    <p>Sunt deschis la schimbare și adaptabil la cerințe noi. Abilitatea mea de a învăța rapid tehnologii noi și de a mă adapta la diferite metode de lucru contribuie la succesul proiectelor dinamice.</p>
+                    <p>I am open to change and adaptable to new requirements. My ability to quickly learn new technologies and adjust to different working methods contributes to the success of dynamic projects.</p>
                 </li>
                 </ul>
             </div>
@@ -194,7 +194,7 @@ const showTimeSkills = () => {
                 </div>
                 <ul className={showTime?'body-list-time-none':'body-list-time'}>
                 <li class="text-skills-presentation">
-                    <p>Gestionarea eficientă a timpului mă ajută să prioritizez sarcinile și să îndeplinesc termenele limită. Mă asigur că proiectele sunt livrate la timp, fără a compromite calitatea, printr-o planificare și organizare riguroasă.</p>
+                    <p>Efficient time management helps me prioritize tasks and meet deadlines. I ensure that projects are delivered on time without compromising quality through meticulous planning and organization.</p>
                 </li>
                 </ul>
             </div>

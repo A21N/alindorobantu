@@ -12,7 +12,7 @@
 .skills-descr {
  
     padding: 5px 30px;
-    margin: 0 55px;
+    margin: 0 0px;
 }
 
 .path-description {
@@ -20,26 +20,27 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 50%;
 }
 
 .separate-description-html-left {
-    margin: 300px 20px 0px 0px;
+    margin: 300px 0px 0px 0px;
 }
 
 .separate-description-css-right {
-    margin: 660px 0px 0px 20px;
+    margin: 660px 0px 0px 0px;
 }
 
 .separate-description-js-left {
-    margin: 420px 20px 0px 0px;
+    margin: 420px 0px 0px 0px;
 }
 
 .separate-description-react-right {
-    margin: 430px 0px 0px 20px;
+    margin: 460px 0px 0px 0px;
 }
 
 .separate-description-node-left {
-    margin: 440px 20px 0px 0px;
+    margin: 440px 0px 0px 0px;
 }
 
 
@@ -61,7 +62,9 @@
     background-color: rgb(255, 217, 0);
     padding: 10px;
     border-radius: 20px;
-    width: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -125,22 +128,22 @@
     }
 
     .separate-description-css-right {
-        margin: 610px 0px 0px -40px;
+        margin: 680px 0px 0px -40px;
         padding: 0 0px;
     }
 
     .separate-description-js-left {
-        margin: 635px -40px 0px 0px;
+        margin: 765px -40px 0px 0px;
         padding: 0 0px;
     }
 
     .separate-description-react-right {
-        margin: 600px 0px 0px -40px;
+        margin: 750px 0px 0px -40px;
         padding: 0 0px;
     }
 
     .separate-description-node-left {
-        margin: 620px -40px 0px 0px;
+        margin: 680px -40px 0px 0px;
         padding: 0 0px;
     }
 
@@ -152,7 +155,7 @@
 
     .path-line {
         width: 3px;
-        height: 350px;
+        height: 410px;
         background-color: rgb(254, 227, 9);
     }
 

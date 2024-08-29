@@ -105,12 +105,22 @@ const showGitSkills = () => {
 
 
                     <ul className={showHtml?'body-list-html-none':'body-list-html'}>
-                        <li className='text-skills-presentation'>{`Structura Semantica: Utilizare avansată a elementelor semantice precum <header>, <footer>, <nav>, <section>, și <article> pentru a crea pagini ușor de navigat și de înțeles.`}</li>
-                        <li className='text-skills-presentation'>{`Formatarea Textului: Stilizarea eficientă a textului folosind etichete HTML (ex. <h1>-<h6>, <p>, <strong>, <em>).`}</li>
-                        <li className='text-skills-presentation'>{`Liste și Tabele: Crearea și stilizarea listelor și tabelelor pentru organizarea clară a datelor, utilizând <ul>, <ol>, <li>, <table>, <tr>, <th>, și <td>.`}</li>
-                        <li className='text-skills-presentation'>{`Integrarea Media: Încorporarea de imagini, video, și audio folosind <img>, <video>, și <audio>, cu accent pe accesibilitate și performanță (atribute src, alt, controls).`}</li>
-                        <li className='text-skills-presentation'>{`Formulare Avansate: Crearea de formulare complexe și intuitive cu <form>, <input>, <textarea>, <select>, și <button>, utilizând validarea HTML5 pentru a asigura integritatea datelor.`}</li>
-                        <li className='text-skills-presentation'>{`Optimizare SEO: Utilizarea meta tag-urilor și a structurilor HTML pentru a îmbunătăți vizibilitatea și indexarea site-urilor web.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Mastering the use of semantic elements such as <header>, <footer>, <nav>, <section>, and <article> to create well-structured and accessible webpages.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Styling and organizing text content using HTML elements like <h1>-<h6>, <p>, <strong>, and <em> to ensure clarity and emphasis in textual content.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Creating and styling ordered and unordered lists using <ul>, <ol>, <li>, as well as designing and structuring data with <table>, <tr>, <th>, and <td>.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Embedding images, videos, and audio files using <img>, <video>, and <audio>, while focusing on accessibility and performance through attributes like src, alt, and controls.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Designing and developing complex and user-friendly forms using elements like <form>, <input>, <textarea>, <select>, and <button>, with HTML5 validation features to ensure data integrity.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Creating effective navigation and linking strategies using <a> tags, and employing attributes like href, target, and rel for improved user experience and SEO.`}</li>
+                            <li className='text-skills-presentation'>
+                            {`Enhancing webpage visibility and search engine indexing by using appropriate meta tags and structuring HTML with best practices.`}</li>
+                            <li className='text-skills-presentation'>
+                            {`Understanding and implementing the correct structure of an HTML document using elements like <!DOCTYPE html>, <html>, <head>, and <body> to ensure proper page rendering.`}</li>
                     </ul>
                         
                 </div>
@@ -126,10 +136,22 @@ const showGitSkills = () => {
                         </div>
                     </div>
                     <ul className={showCss?'body-list-css-none':'body-list-css'}>
-                        <li className='text-skills-presentation'>{`Design Responsive: Crearea de layout-uri flexibile folosind CSS Flexbox și CSS Grid pentru a asigura o experiență optimă pe dispozitive de diverse dimensiuni.`}</li>
-                        <li className='text-skills-presentation'>{`Preprocesatoare CSS (Sass/LESS): Utilizarea preprocesatoarelor pentru a scrie cod CSS modular și ușor de întreținut, îmbunătățind astfel scalabilitatea proiectelor.`}</li>
-                        <li className='text-skills-presentation'>{`Animații și Tranziții CSS: Implementarea de animații fluide și tranziții între stări de elemente folosind @keyframes, transition și animation, pentru a îmbunătăți interactivitatea site-urilor.`}</li>
-                        <li className='text-skills-presentation'>{`Design de Interfață cu Utilizatorul (UI): Crearea de componente UI personalizate, utilizând clase CSS pentru stilizarea consistentă și intuitivă a elementelor precum butoane, carduri, și meniuri.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Mastering the Flexbox layout model for creating flexible and responsive layouts, including alignment, distribution of space, and handling of flexible items within containers.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Utilizing CSS Grid to design complex, two-dimensional layouts with grid areas, rows, and columns, ensuring precise control over layout structures.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Implementing responsive design principles using media queries to create layouts that adapt seamlessly to various screen sizes and devices.`}</li>
+                        <li className='text-skills-presentation'>
+                            {`Writing and applying media queries to adjust CSS properties based on screen dimensions, orientations, and other device characteristics.`}</li>
+                            <li className='text-skills-presentation'>
+                            {`Designing and customizing form elements, such as input fields, buttons, and checkboxes, to create user-friendly and accessible forms.`}</li>
+                            <li className='text-skills-presentation'>
+                            {`Implementing smooth animations and transitions using @keyframes, transition, and animation properties to enhance user interaction and engagement.`}</li>
+                            <li className='text-skills-presentation'>
+                            {`Applying various CSS positioning techniques (relative, absolute, fixed, and sticky) to control the placement and layering of elements on a webpage.`}</li>
+                            <li className='text-skills-presentation'>
+                            {`Creating and styling reusable UI components like buttons, cards, and navigation menus, ensuring consistency across the user interface.`}</li>
                     </ul>
                 </div>
                 <div className='skill-item-body' onClick={showJsSkills}>
@@ -145,25 +167,31 @@ const showGitSkills = () => {
                     </div>
                     <ul className={showJs?'body-list-js-none':'body-list-js'}>
                     <li className='text-skills-presentation'>
-                        {`Manipularea DOM: Interacțiuni directe și dinamice cu Document Object Model folosind metode precum document.getElementById, document.querySelector, și manipularea nodurilor DOM.`}
+                        {`Arrays: Creating, manipulating, and iterating over arrays using built-in methods like map, filter, reduce, and forEach.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Programare Asincronă: Utilizarea Promisiunilor, async/await și API-ului Fetch pentru a gestiona operațiuni asincrone și a îmbunătăți performanța aplicațiilor.`}
+                        {`Objects: Defining and managing objects, including property access, object destructuring, and dynamic properties.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Framework-uri JavaScript: Dezvoltarea de aplicații complexe folosind React.js, Angular, sau Vue.js pentru o experiență de utilizator modernă și interactivă.`}
+                        {`Functions: Writing and utilizing functions, including higher-order functions, callbacks, arrow functions, and understanding the scope and closures`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Programare Orientată pe Obiecte: Utilizarea claselor ES6, prototipurilor și encapsulării pentru a structura aplicații modulare și reutilizabile.`}
+                        {`DOM Manipulation: Direct interaction with the Document Object Model (DOM) using methods like getElementById, querySelector, and handling DOM nodes dynamically.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Gestionarea Stării: Implementarea Redux, Context API, și alte soluții de gestionare a stării pentru a crea aplicații predictibile și eficiente.`}
+                        {`Adding and managing event listeners to handle user interactions efficiently, including concepts like event delegation and propagation.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Optimizare și Performanță: Îmbunătățirea timpului de încărcare și performanței codului JavaScript prin Webpack, Babel, și bune practici de codare.`}
+                        {`Classes: Utilizing ES6 classes for object-oriented programming, with inheritance, constructors, and encapsulation.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Testare și Debugging: Utilizarea instrumentelor de testare precum Jest și Mocha, și debugging avansat cu DevTools pentru a asigura calitatea și stabilitatea aplicațiilor.`}
+                        {`Fetch API: Implementing asynchronous HTTP requests using the Fetch API for server communication, handling promises, and async/await patterns.`}
+                    </li>
+                    <li className='text-skills-presentation'>
+                        {`Template Literals: Leveraging template literals for cleaner and more readable string interpolation and multi-line strings.`}
+                    </li>
+                    <li className='text-skills-presentation'>
+                        {`Destructuring: Simplifying code with array and object destructuring for extracting values from arrays and objects.`}
                     </li>
                         
                     </ul>
@@ -181,22 +209,16 @@ const showGitSkills = () => {
                     </div>
                     <ul className={showReact?'body-list-react-none':'body-list-react'}>
                     <li className='text-skills-presentation'>
-                        {`Componente Funcționale și de Clasă: Crearea de componente reutilizabile și modulare folosind atât componente funcționale cât și de clasă, cu utilizarea optimă a props și state.`}
+                        {`Developing reusable and modular components using both functional and class components.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Hooks: Utilizarea hook-urilor precum useState, useEffect, useContext și custom hooks pentru a gestiona starea și efectele secundare în componentele funcționale.`}
+                        {`Efficiently managing props and state within components to control data flow and component behavior.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Gestionarea Stării: Implementarea gestionării stării la nivel global folosind Redux, Context API, sau librării ca MobX pentru a asigura fluxuri de date predictibile.`}
+                        {`Utilizing hooks such as useState and useEffect to manage state and side effects in functional components.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`React Router: Configurarea și gestionarea rutelor în aplicații SPA (Single Page Application) folosind React Router, inclusiv redirecționarea, parametrii URL și protecția rutelor.`}
-                    </li>
-                    <li className='text-skills-presentation'>
-                        {`Optimizarea Performanței: Aplicarea de tehnici de optimizare precum React.memo, useMemo și useCallback pentru a preveni randările inutile și a îmbunătăți performanța.`}
-                    </li>
-                    <li className='text-skills-presentation'>
-                        {`Testare cu React Testing Library și Jest: Asigurarea calității codului prin scrierea de teste unitare și de integrare pentru componentele React folosind React Testing Library și Jest.`}
+                        {`Configuring and managing routes in SPA (Single Page Application) using React Router.`}
                     </li>
                     </ul>
                 </div>
@@ -213,22 +235,16 @@ const showGitSkills = () => {
                     </div>
                     <ul className={showNode?'body-list-node-none':'body-list-node'}>
                     <li className='text-skills-presentation'>
-                        {`Servere HTTP: Dezvoltarea de servere HTTP eficiente utilizând modulul Node.js 'http' și Express pentru a gestiona cererile și răspunsurile.`}
+                        {`Creating and managing servers using Node.js and Express.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Asincronism și Evenimente: Implementarea de aplicații asincrone și gestionarea eficientă a evenimentelor și callback-urilor cu Node.js.`}
+                        {`Handling HTTP requests such as GET, POST, PUT, and DELETE.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Acces la Bază de Date: Integrarea cu baze de date SQL și NoSQL (ex. MongoDB, MySQL, PostgreSQL) folosind drivere și ORM-uri populare.`}
+                        {`Using npm to manage project packages and dependencies.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Gestionarea Pachetelor cu npm: Utilizarea npm pentru a gestiona pachetele și dependențele proiectelor Node.js, inclusiv crearea de scripturi personalizate.`}
-                    </li>
-                    <li className='text-skills-presentation'>
-                        {`API-uri RESTful: Crearea de API-uri RESTful scalabile și sigure folosind Express, cu autentificare și autorizare JWT.`}
-                    </li>
-                    <li className='text-skills-presentation'>
-                        {`Testare și Debugging: Scrierea de teste unitare și de integrare pentru aplicațiile Node.js folosind Jest, Mocha, și Chai.`}
+                        {`Developing efficient HTTP servers using Node.js 'http' module and Express to handle requests and responses.`}
                     </li>
                    </ul>
                 </div>
@@ -245,22 +261,16 @@ const showGitSkills = () => {
                     </div>
                     <ul className={showGit?'body-list-git-none':'body-list-git'}>
                     <li className='text-skills-presentation'>
-                        {`Controlul Versiunilor: Experiență în utilizarea Git pentru controlul versiunilor și gestionarea codului sursă într-un mediu de dezvoltare colaborativ.`}
+                        {`Creating and managing repositories for projects.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Branching și Merging: Utilizarea ramurilor Git pentru a dezvolta caracteristici noi și gestionarea conflictelor de cod prin procese de merging și rebase.`}
+                        {`Initial upload of projects to GitHub.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Utilizarea GitHub și GitLab: Integrarea Git cu platforme de colaborare precum GitHub și GitLab, gestionând proiecte open-source și private.`}
+                        {`Updating repositories with the latest code changes.`}
                     </li>
                     <li className='text-skills-presentation'>
-                        {`Gestionarea Conflictelor: Abilități avansate de rezolvare a conflictelor de merge și menținerea unui istoric de commit-uri curat și organizat.`}
-                    </li>
-                    <li className='text-skills-presentation'>
-                        {`Automatizare cu Git Hooks: Crearea și utilizarea Git Hooks pentru automatizarea sarcinilor de dezvoltare, precum formatarea codului și rularea testelor înainte de commit.`}
-                    </li>
-                    <li className='text-skills-presentation'>
-                        {`Managementul Versiunilor și Tagging: Folosirea tagging-ului pentru a marca versiuni importante ale aplicațiilor și pentru a facilita rollback-ul și depănarea.`}
+                        {`Using Git commands like commit, push, and pull to keep the code synchronized with the GitHub repository.`}
                     </li>
                      </ul>
                 </div>

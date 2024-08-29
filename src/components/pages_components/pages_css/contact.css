@@ -31,6 +31,7 @@ form h4 {
 .align-form {
     text-align: left;
     margin-left: 20px;
+  
 }
 
 #submit-message {
@@ -43,7 +44,7 @@ form h4 {
     padding: 5px;
     background-color: rgb(95, 95, 95);
     color: white;
-    width: 50%;
+    width: 90%;
     border: 1px solid rgb(254, 227, 9);
     border-radius: 5px;
     margin: 20px 0px;
@@ -63,11 +64,12 @@ form h4 {
 
 #name, #email, #message {
     padding: 10px 0px 10px 10px;
+    font-size: 20px;
 }
 
 #name, #email, #message {
     width: 90%;
-   
+   font-size: 20px;
     border: 1px solid rgb(95, 95, 95);
     border-radius: 5px;
     margin: 20px 0px;

@@ -102,14 +102,19 @@ margin-bottom: 10px;
 .color-starter-none {
     color: rgb(255, 255, 255);
     font-weight: bold;
+    
 }
 
 .color-chalange {
     color: #2c2c38;
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .color-chalange-none {
     color: rgb(255, 255, 255);
+    text-wrap: wrap;
+    text-align: center;
 }
 
 
@@ -157,7 +162,7 @@ margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    width: auto;
     margin-top: 5px;
 }
 

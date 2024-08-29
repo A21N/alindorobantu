@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { TypingEffect } from './TypingEffect';
 
 import download_solid from '../images/download_solid.svg';
+import myCv from '../images/CV_AlinDorobantu.pdf';
  
 export const Presentation = () => {
 
@@ -52,10 +53,12 @@ export const Presentation = () => {
                     </p>
                     <div className='curly about-color'>{`}`}</div>
                 </div>
-                <div id='download-my-cv'>
-                    <h2>Download my CV</h2>
-                    <img src={download_solid} alt='download' />
-                </div>  
+                <a href={myCv} download={myCv} id='download-cv'>
+                    <div id='download-my-cv'>
+                        <h2>Download my CV</h2>
+                        <img src={download_solid} alt='download' />
+                    </div>  
+                </a>
             </div>
             <div className='business-card'>
                 <div className='info-card'>
@@ -68,11 +71,15 @@ export const Presentation = () => {
                     <div className='social'>
                 
                     <div className='linkedin'>
-                        <img src={linkedin_white} alt='linkedin' />
+                        <a href='https://www.linkedin.com/in/ai-dorobantu/' target={`${'_blank'}`}>
+                            <img src={linkedin_white} alt='linkedin' />
+                        </a>
                     </div>
                     <div id='social-line'></div>
                     <div className='github'>
-                        <img src={square_github_white} alt='github' />
+                        <a href='https://github.com/A21N' target={`${'_blank'}`}>
+                            <img src={square_github_white} alt='github' />
+                        </a>
                     </div>
                     
                 </div>

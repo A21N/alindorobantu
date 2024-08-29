@@ -10,6 +10,7 @@ import html from '../../images/html.png';
 import css from '../../images/css.png';
 import js from '../../images/js.png';
 import react from '../../images/react.png';
+import dumb from '../../images/dumbProject.png'
 
 import { Link } from 'react-router-dom';
 
@@ -53,7 +54,9 @@ export const Portfolio = () => {
               
                 <div className='portofolio-item'>
                 <h2 className='title-projects-color'>Image gallery</h2>
-                    <img src={imagegalery} alt='galery' id='size-portofolio' />
+                    <a href={`https://alindorobantu.com/projects/image_gallery/image-gallery.html`} target={`_blank`}>
+                        <img src={imagegalery} alt='galery' id='size-portofolio' />
+                    </a>
                     <p className='color-link-project'><a href={`https://alindorobantu.com/projects/image_gallery/image-gallery.html`} target={`_blank`}>{`Open App -->`}</a></p>
                     <div className='buttons-portfolio'>
                         <div className='tech-used'>
@@ -97,6 +100,25 @@ export const Portfolio = () => {
                             <img src={html} alt='html' className='tech-size' />
                             <img src={css} alt='css' className='tech-size' />
                             <img src={js} alt='js' className='tech-size' />
+                        </div>
+                        <a href={`https://github.com/A21N/to-do-list.git`} target={`_blank`}>
+                        <img src={gitbutton} alt='button github' className='button-git' title='view code on github!'/>
+                        </a>
+                    </div>
+                </div>
+
+                <div className='portofolio-item'>
+                <h2 className='title-projects-color'>Dumb project</h2>
+                    <a href={`https://dumbproject.alindorobantu.com/`} target={`_blank`}>
+                        <img src={dumb} alt='to-do=app' id='size-portofolio' />
+                    </a>
+                    <p className='color-link-project'> <a href={`https://dumbproject.alindorobantu.com/`} target={`_blank`}>{`Open App -->`}</a></p>
+                    
+                    <div className='buttons-portfolio'>
+                        <div className='tech-used'>
+                            <img src={css} alt='css' className='tech-size' />
+                            <img src={js} alt='js' className='tech-size' />
+                            <img src={react} alt='js' className='tech-size' />
                         </div>
                         <a href={`https://github.com/A21N/to-do-list.git`} target={`_blank`}>
                         <img src={gitbutton} alt='button github' className='button-git' title='view code on github!'/>

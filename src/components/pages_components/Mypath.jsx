@@ -46,13 +46,11 @@ export const Mypath = () => {
                 <div className='separate-description-node-left'>
                 <ul className='skills-descr'>
                         <b>NODE JS</b>
-                        <li>Basic concepts</li>
-                        <li>Text formatting</li>
-                        <li>Media and links</li>
-                        <li>Structure and layout</li>
-                        <li>Tables and lists</li>
-                        <li>Forms</li>
-                        <li>Accessibility</li>
+                        <li>Introduction to Node.js</li>
+                        <li>Creating and Managing Servers with Node.js</li>
+                        <li>Handling HTTP Requests</li>
+                        <li>{`Using npm (Node Package Manager)`}</li>
+                        <li>Modules and Project Structure in Node.js</li>
                     </ul>
                 </div>
 
@@ -102,7 +100,6 @@ export const Mypath = () => {
                         <li>React Router</li>
                         <li>Forms</li>
                         <li>Fetching data</li>
-                        <li>Redux</li>
                     </ul>
                 </div>
         
